@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<html lang="en" dir="ltr">
+
+<head>
+    <link th:href="@{index.css}" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title> Picas y Famas</title>
+</head>
+
+<body>
+<div class="flexbox">
+    <div>
+        <form action="/" method="post">
+            <p>Intento: <input type="text" name="num" /></p>
+            <p><button type="submit" name="play" value="play">play</button></p>
+            <p><button type="submit" name="restart" value="restart">restart</button></p>
+            <p th:text=" ${mensaje}" />
+        </form>
+    </div>
+    <div>
+        <table border="1" cellpadding="10">
+            <thead>
+            <tr>
+                <th>numeros ya usados</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="contact : ${listanumeros}">
+                <td th:text="${contact}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p th:text="'Picas = ' + ${juegoini.getPicas()}" />
+        <p th:text="'Famas = ' + ${juegoini.getFama()}" />
+    </div>
+    <div>
+        <p th:text="'Vidas = ' + ${juegoini.getVidas()}" />
+    </div>
+
+
+</div>
+
+</body>
