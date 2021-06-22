@@ -50,11 +50,11 @@ java -cp target/ARSW-Lab4-1.0-SNAPSHOT.jar edu.escuelaing.arsw.app.HTTP.HttpServ
 #### Despliegue en Heroku
 En el siguiente enlace podrá encontrar el servidor desplegado
 https://servidor-web-felipe-lab4.herokuapp.com/index.html
-![](img/HerokuServer.PNG)
+![](img/HerokuServer.png)
 
 También puede abrir el mismo enlace para notar que soporta CSS:
 https://servidor-web-felipe-lab4.herokuapp.com/bootstrap/index.html
-![](img/HerokuBootstrap.PNG)
+![](img/HerokuBootstrap.png)
 
 ###  EJERCICIO 2  - Picas y Famas en Heroku
 
@@ -70,8 +70,8 @@ Si l desea tambien puede ejecutar el juego desde su computador de forma local. U
 #### Despliegue en Heroku
 En el siguiente enlace podrá encontrar el juego, solo debe darle en iniciar y listo.
 https://picas-y-famas.herokuapp.com/
-![](img/HerokuPicas.PNG)
-![](img/HerokuFamas.PNG)
+![](img/HerokuPicas.png)
+![](img/HerokuFamas.png)
 
 ## Diagrama de clases
 
